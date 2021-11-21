@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <HeaderContainer /> 
       <IntroText />
-      <div className="Buttons">
-        
-      </div>
+      
       
     </div>
   );
