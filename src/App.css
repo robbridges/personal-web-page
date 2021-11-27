@@ -5,6 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a:link{
+  text-decoration: none;
+  color: seashell;
+}
+a:visited {
+  color: seashell
+}
+
 .App {
   height: 95vh;
   background-color: rgb(0, 0, 0);
@@ -14,16 +23,33 @@
 
 .App-header {
   height: 3vh;
-  background-color: seashell;
+  
+  display: flex;
+  background-color: #0F1111;
 }
 
-
-.Header-content {
-  position: absolute;
-  top: 0.7%;
-  left: 0%;
+.left-side {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  
+  
   
 }
+
+
+.header-link {
+  float: left;
+  align-items: flex;
+  justify-content: center;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-link:hover {
+  border: 1px solid #fff;
+}
+
 .intro-text {
   position: absolute;
   top: 20%;
@@ -108,6 +134,7 @@
   transition: all .2s;
   position: relative;
   width: 140px;
+  color:#0F1111
 }
 
 .btn:hover {
