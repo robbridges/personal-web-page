@@ -9,6 +9,7 @@
 a:link{
   text-decoration: none;
   color: seashell;
+  text-align: center;
 }
 a:visited {
   color: seashell
@@ -23,28 +24,26 @@ a:visited {
 }
 
 .App-header {
-  height: 3vh;
-  
-  display: flex;
+  height: 5%;
   background-color: #0F1111;
 }
 
 .left-side {
-  height: 3vh;
+  height: 100%;
   text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
+  
 }
 
 
 .header-link {
-  height: 3vh;
+  height: 100%;
   float: left;
-  align-items: flex;
-  justify-content: center;
-  padding-top: 3px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: .5%;
+  font-size: 1.7vh;
+  align-items: center;
+  
 }
 .header-link:hover {
   border: 1px solid #fff;
@@ -53,9 +52,12 @@ a:visited {
 }
 
 .intro-text {
+  
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 20%;
-  left: 30%;
+
   text-align: center;
 }
 .primary-heading {
@@ -65,17 +67,17 @@ a:visited {
 }
 .introduction-main {
   display: block;
-  font-size: 40px;
+  font-size: 4vh;
   font-weight: 400;
-  letter-spacing: 25px;
+  letter-spacing: 1.5vw;
   animation-name: moveInLeft;
   animation-duration: 1s;
 }
 .introduction-sub {
   display: block;
-  font-size: 25px;
+  font-size: 3vh;
   font-weight: 700;
-  letter-spacing: 20px;
+  letter-spacing: 1vw;
   animation-name: moveInRight;
   animation-duration: 1s;
 }
@@ -126,22 +128,27 @@ a:visited {
   }
 }
 
+
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 1vh 4vh;
   display: inline-block;
   border-radius: 100px;
   transition: all .2s;
   position: relative;
-  width: 140px;
-  color:#0F1111
+  height: 5vh;
+  width: 25vh;
+  color:#0F1111;
+  font-size: 2vh;
+  
 }
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgb(77, 2, 77);
+  box-shadow: 0 10px 20px seashell;
 }
 
 .btn:active {
@@ -153,7 +160,7 @@ a:visited {
 .linkedin-button {
   background-color: #fff;
   color: #777;
-  margin-bottom: 50px;
+  margin-bottom: 3.5vh;
 }
 
 
@@ -168,4 +175,5 @@ a:visited {
 }
 .intro-button {
   display: block;
+  
 }
