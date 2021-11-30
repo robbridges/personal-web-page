@@ -178,3 +178,19 @@ a:visited {
   display: block;
   
 }
+
+.AboutMeText {
+  
+  
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+  
+    text-align: center;
+  
+}
+.AboutMeHeading {
+  color: seashell;
+  text-transform: uppercase;
+}
