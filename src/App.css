@@ -47,9 +47,9 @@ a:visited {
 }
 .header-link:hover {
   border: 1px solid #fff;
-  overflow: hidden;
-  margin: -.05vh;
-  background-color: black;
+  margin: -0.05vh;
+  
+  background-color: darkgrey;
 }
 
 .intro-text {
