@@ -48,7 +48,6 @@ a:visited {
 .header-link:hover {
   border: 1px solid #fff;
   margin: -0.05vh;
-  
   background-color: darkgrey;
 }
 
@@ -58,13 +57,12 @@ a:visited {
   width: 100%;
   position: absolute;
   top: 20%;
-
   text-align: center;
 }
 .primary-heading {
   color: seashell;
   text-transform: uppercase;
-  padding-bottom: 60px;
+  padding-bottom: 10vh;
 }
 .introduction-main {
   display: block;
@@ -81,6 +79,9 @@ a:visited {
   letter-spacing: 1vw;
   animation-name: moveInRight;
   animation-duration: 1s;
+}
+.intro-links {
+  height: 5vh;
 }
 
 @keyframes moveInLeft {
