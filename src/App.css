@@ -181,17 +181,25 @@ a:visited {
 }
 
 .AboutMeText {
-  
-  
     height: 100%;
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 20%;
-  
+    left: 5%;
     text-align: center;
-  
 }
+
 .AboutMeHeading {
   color: seashell;
   text-transform: uppercase;
+}
+
+.AboutMeHeader {
+  font: 3em sans-serif;
+  letter-spacing: .5vw;
+  padding-bottom: 5vh;
+}
+.AboutMeParagraph {
+  font-size: 2em;
+  text-transform: none;
 }
