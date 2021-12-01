@@ -60,6 +60,8 @@ a:visited {
   left: 5%;
   text-align: center;
   overflow-y: auto;
+  overflow-x: hidden;
+  
 }
 .primary-heading {
   color: seashell;
