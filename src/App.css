@@ -147,8 +147,8 @@ a:visited {
   border-radius: 100px;
   transition: all .2s;
   position: relative;
-  height: 5vh;
-  width: 25vh;
+  height: 5%;
+  width: 10%;
   color:#0F1111;
   font-size: 2vh;
   
@@ -187,7 +187,7 @@ a:visited {
 }
 
 .AboutMeText {
-    height: 90%;
+    height: 80%;
     width: 90%;
     position: absolute;
     top: 20%;
@@ -201,13 +201,24 @@ a:visited {
 }
 
 .AboutMeHeader {
-  font: 3em sans-serif;
+  font: 2.5em sans-serif;
   letter-spacing: .5vw;
   padding-bottom: 5vh;
 }
 .AboutMeParagraph {
-  height: 30vh;
+  height: 25vh;
   font-size: 1.5em;
   overflow-y: auto;
   text-transform: none;
+}
+.Portfolio {
+  height: 80%;
+  width: 90%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: center;
+}
+.PortfolioText {
+  color: seashell;
 }

@@ -8,7 +8,7 @@ class Header extends React.Component {
           <div className = "left-side">
             <Link className="header-link" to="/"> Rob Bridges</Link>
             <Link className="header-link" to="/about">About</Link>
-            <a className="header-link" href="https://robbridges.github.io/personal-web-page/">Recent work</a>
+            <Link className="header-link" to="/portfolio">Recent work</Link>
           </div>
         </div>
         
