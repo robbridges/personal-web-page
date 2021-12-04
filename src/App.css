@@ -206,6 +206,7 @@ a:visited {
   font: 2.5em sans-serif;
   letter-spacing: .5vw;
   padding-bottom: 5vh;
+  left: 20%;
 }
 .AboutMeParagraph {
   height: 25vh;
@@ -221,6 +222,8 @@ a:visited {
   left: 5%;
   text-align: center;
 }
-.PortfolioText {
+.Portfolio-text {
   color: seashell;
 }
+
+
