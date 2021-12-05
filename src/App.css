@@ -51,6 +51,9 @@ a:visited {
   align-items: center;
   
 }
+.right {
+  float: right;
+}
 
 .header-link:hover {
   border: 1px solid #fff;
