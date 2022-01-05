@@ -4,7 +4,24 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div className="Portfolio">
-        <p className="Portfolio-text">Coming soon...</p>
+            <div>
+              <a href="https://rob-bridges-code-editor.herokuapp.com/">
+                <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/code_editor_s3.png" alt="project" />
+              </a>
+              <p className ="Project-description">Code editor</p> 
+            </div>
+            <div>
+              <a href="https://rob-bridges-code-editor.herokuapp.com/">
+                <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/code_editor_s3.png" alt="project" />
+              </a>
+              <p className ="Project-description">Code editor</p> 
+            </div>
+            <div>
+              <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/code_editor_s3.png" alt="project" />
+            </div>
+        
+
+        
       </div>
 
     )
