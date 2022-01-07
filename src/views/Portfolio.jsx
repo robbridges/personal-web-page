@@ -2,7 +2,9 @@ import React from 'react';
 
 class Portfolio extends React.Component {
   render() {
+    {/* Mock data, just to make sure it's working, this should be a for loop */}
     return (
+      
       <div className="Portfolio">
             <div>
               <a href="https://rob-bridges-code-editor.herokuapp.com/">
