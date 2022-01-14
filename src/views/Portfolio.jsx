@@ -2,7 +2,8 @@ import React from 'react';
 
 class Portfolio extends React.Component {
   render() {
-    {/* Mock data, just to make sure it's working, this should be a for loop */}
+    {/* Mock data, just to make sure it's working, this should be a for loop
+  maybe just to show off make your own api?  */}
     return (
       
       <div className="Portfolio">
