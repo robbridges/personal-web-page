@@ -2,8 +2,8 @@ import React from 'react';
 
 class Portfolio extends React.Component {
   render() {
-    {/* Mock data, just to make sure it's working, this should be a for loop
-  maybe just to show off make your own api?  */}
+    // eslint-disable-next-line no-lone-blocks
+    {/* Mock data, just to make sure it's working, this should be a for loop maybe just to show off make your own api?  */}
     return (
       
       <div className="Portfolio">
@@ -14,17 +14,18 @@ class Portfolio extends React.Component {
               <p className ="Project-description">Code editor</p> 
             </div>
             <div>
-              <a href="https://rob-bridges-code-editor.herokuapp.com/">
-                <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/code_editor_s3.png" alt="project" />
+              <a href="https://rob-bridges-fake-api.herokuapp.com//">
+                <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/Mock_API_PROJECT.png" alt="project" />
               </a>
-              <p className ="Project-description">Code editor</p> 
+              <p className ="Project-description">Fake retail API </p> 
             </div>
             <div>
-              <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/code_editor_s3.png" alt="project" />
+              <a href="https://robbridges.github.io/Tech-degree-4/">
+                <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/PHRASE_HUNTER_SCREENSHOT.png" alt="project" />
+              </a>
+              
+              <p className ="Project-description">Phrase Hunter</p>
             </div>
-        
-
-        
       </div>
 
     )
