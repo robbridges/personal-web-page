@@ -247,13 +247,17 @@ a:visited {
 }
 
 .Project-description {
-  width: 100%;
+  
   color: seashell;
   padding-left: 14vw;
   
 }
 
 @media only screen and (max-width: 480px) {
+  .Project-img {
+    image-rendering: pixelated;
+  }
+
   .Project-description {
     padding-left: 7vw;
   }
