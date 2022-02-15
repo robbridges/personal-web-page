@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-web-page/static/css/main.58c2e57a.chunk.css",
+    "main.css": "/personal-web-page/static/css/main.a6366004.chunk.css",
     "main.js": "/personal-web-page/static/js/main.fea59128.chunk.js",
     "main.js.map": "/personal-web-page/static/js/main.fea59128.chunk.js.map",
     "runtime-main.js": "/personal-web-page/static/js/runtime-main.b10d7374.js",
@@ -10,13 +10,14 @@
     "static/js/3.e3be2e49.chunk.js": "/personal-web-page/static/js/3.e3be2e49.chunk.js",
     "static/js/3.e3be2e49.chunk.js.map": "/personal-web-page/static/js/3.e3be2e49.chunk.js.map",
     "index.html": "/personal-web-page/index.html",
-    "static/css/main.58c2e57a.chunk.css.map": "/personal-web-page/static/css/main.58c2e57a.chunk.css.map",
-    "static/js/2.85cec70f.chunk.js.LICENSE.txt": "/personal-web-page/static/js/2.85cec70f.chunk.js.LICENSE.txt"
+    "static/css/main.a6366004.chunk.css.map": "/personal-web-page/static/css/main.a6366004.chunk.css.map",
+    "static/js/2.85cec70f.chunk.js.LICENSE.txt": "/personal-web-page/static/js/2.85cec70f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/personal-web-page/static/media/black-background.d028217d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b10d7374.js",
     "static/js/2.85cec70f.chunk.js",
-    "static/css/main.58c2e57a.chunk.css",
+    "static/css/main.a6366004.chunk.css",
     "static/js/main.fea59128.chunk.js"
   ]
 }
