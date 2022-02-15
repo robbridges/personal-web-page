@@ -263,4 +263,15 @@ a:visited {
   }
 }
 
+@media only screen and (max-width: 378px) {
+  .Project-img {
+    image-rendering: pixelated;
+  }
+
+  .Project-description {
+    padding-left: 3.5vw;
+  }
+}
+
+
 
