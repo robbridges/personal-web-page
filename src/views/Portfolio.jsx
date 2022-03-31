@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
                 <img className="Project-img" src="https://rob-bridges.s3.us-west-2.amazonaws.com/PHRASE_HUNTER_SCREENSHOT.png" alt="project" />
               </a>
               
-              <p className ="Project-description">Phrase Hunter</p>
+              <p className ="Project-description-2">Word Guess</p>
             </div>
       </div>
 

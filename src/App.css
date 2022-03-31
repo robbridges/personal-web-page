@@ -253,24 +253,29 @@ a:visited {
   
 }
 
-@media only screen and (max-width: 480px) {
-  .Project-img {
-    image-rendering: pixelated;
-  }
-
-  .Project-description {
-    padding-left: 7vw;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
 }
 
-@media only screen and (max-width: 390px) {
+
+
+@media  (max-width: 768px) {
   .Project-img {
     image-rendering: pixelated;
+    height: 15vh;
   }
 
   .Project-description {
     text-overflow: wrap;
-    padding-left: 3.5vw;
+    padding-left: 6vw;
+  }
+  .Project-description-2 {
+    color: seashell;
+    padding-left: 14vw;
+    text-overflow: wrap;
+    padding-left: 8vw;
   }
 }
 
