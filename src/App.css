@@ -269,17 +269,20 @@ img {
 
   .Project-description {
     text-overflow: wrap;
-    padding-left: 6vw;
+    padding-left: 3vw;
   }
   .Project-description-2 {
     color: seashell;
     padding-left: 14vw;
     text-overflow: wrap;
-    padding-left: 8vw;
+    padding-left: 5vw;
   }
   img {
     max-width: 100%;
     height: auto;
+  }
+  p {
+    text-align: center;
   }
 }
 
