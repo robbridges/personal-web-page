@@ -246,7 +246,7 @@ a:visited {
   
 }
 
-.Project-description {
+.Project-description, .Project-description-2 {
   
   color: seashell;
   padding-left: 14vw;
@@ -276,6 +276,10 @@ img {
     padding-left: 14vw;
     text-overflow: wrap;
     padding-left: 8vw;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
